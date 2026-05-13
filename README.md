@@ -32,11 +32,11 @@ http://서버주소/endpoint?start=2024-01-01&end=2024-01-31&bbox=minX,minY,maxX
 ---
 
 ### 기술 스택
-# Python
-# STAC
-# AWS EC2
-# AWS S3
-# Git / GitHub
+#### Python
+#### STAC
+#### AWS EC2
+#### AWS S3
+#### Git / GitHub
 
 ---
 
