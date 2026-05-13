@@ -21,14 +21,15 @@ STAC 기반 위성영상 데이터 조회 및 다운로드를 위한 API 서버 
 ## 사용 예시
 
 ### 특정 날짜의 데이터 경로 조회
-
-```text
 http://서버주소/endpoint?date=2024-01-01
 
 ### 특정 날짜의 데이터 경로 조회
 http://서버주소/endpoint?start=2024-01-01&end=2024-01-31
 
-### http://서버주소/endpoint?start=2024-01-01&end=2024-01-31&bbox=minX,minY,maxX,maxY
+### BBOX 기반 클리핑 다운로드
+http://서버주소/endpoint?start=2024-01-01&end=2024-01-31&bbox=minX,minY,maxX,maxY
+
+---
 
 ### 기술 스택
 Python
@@ -36,6 +37,8 @@ STAC
 AWS EC2
 AWS S3
 Git / GitHub
+
+---
 
 ### 프로젝트 특징
 STAC 메타데이터 기반 위성영상 데이터 탐색 자동화
